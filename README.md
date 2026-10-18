@@ -72,8 +72,8 @@ cmake -B build && cmake --build build && ctest --test-dir build
 As a subproject: `add_subdirectory(jsonrpc-cpp)` and link `jsonrpc::jsonrpc`.
 If the parent already defines `nlohmann_json::nlohmann_json`, that one is used.
 
-Used by [mcp-cpp](https://github.com/1ay1/mcp-cpp) and
-[acp-cpp](https://github.com/1ay1/acp-cpp), driven by
-[agentty](https://github.com/1ay1/agentty).
+Used by [mcp-cpp](https://github.com/agentty-org/mcp-cpp) and
+[acp-cpp](https://github.com/agentty-org/acp-cpp), driven by
+[agentty](https://github.com/agentty-org/agentty).
 
 License: Apache-2.0.
